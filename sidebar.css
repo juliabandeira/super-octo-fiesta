@@ -1,0 +1,46 @@
+.sidebar {
+  color: #f72210;
+  padding-top: 1rem;
+}
+
+.sidebar h2 {
+  text-transform: uppercase;
+}
+
+.sidebar ul {
+  list-style: square;
+  list-style-position: inside;
+  margin: 3rem 0;
+  padding: 0 2rem;
+}
+
+.sidebar li:not(li:last-of-type) {
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.sidebar ul li a {
+  color: #000;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+@media (max-width: 992px) {
+  .sidebar {
+    text-align: center;
+  }
+}
+
+button {
+  width: 80%;
+  display: block;
+  margin: 3rem auto;
+  padding: 1.5rem;
+  color: #757575;
+  background-color: #e5e5e5;
+}
+
+button:hover {
+  opacity: 0.8;
+}
